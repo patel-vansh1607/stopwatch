@@ -35,7 +35,12 @@ const StopWatch = () => {
     }
 
     function formatTime(){
-        return `00:00:00`
+        let hours = Math.floor(elapsedtime / (1000 * 60 * 60))
+        let minutes = Math.floor(elapsedtime / (1000 * 60) % 60)
+        let seconds = Math.floor(elapsedtime / (1000) % 60)
+        let milliseconds = Math.floor(elapsedtime % 1000)
+
+        return `${hours}:${minutes}:${seconds}:${milliseconds}`
     }
 
 
