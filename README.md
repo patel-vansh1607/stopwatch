@@ -1,7 +1,7 @@
-[![Project Banner](./src//images/readme-project-banner-01.png)](https://image-carousel-iota.vercel.app/)
+[![Project Banner](./src//images/readme-project-banner-01.png)](https://stopwatch-khaki-five.vercel.app/)
 ---
-# 🚀 **Iamge Carousel**  
-> _A website soem images are kept on a image slideshow_
+# 🚀 **Stop Watch**  
+> _A website where it displays a stop watch_
 ---
 
 ## 🔥 **Features**
@@ -15,10 +15,10 @@
 ## 📦 **Installation**
 ```bash
 # Clone the repo
- git clone https://github.com/patel-vansh1607/image-carousel
+ git clone https://github.com/patel-vansh1607/stopwatch
 
 # Navigate into the project
- cd image-carousel
+ cd stopwatch
 
 # Install dependencies
  npm install
